@@ -1,0 +1,56 @@
+.Input{
+  width:100%;
+  padding:10px;
+  box-sizing: border-box;
+}
+.label{
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+.InputElement{
+  outline: none;
+  border:1px solid #ccc;
+  background-color: white;
+  font:inherit;
+  padding:6px 10px;
+  display: block;
+  padding: 8px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+  transition: all 1s ease-in;
+  box-sizing: border-box;
+}
+.InputElement:focus{
+  outline:none;
+  background-color: #ccc;
+  width:100%;
+  border: 2px solid #ccc;
+}
+
+.InValid{
+  border:1px solid red;
+  background-color: #FDA49A;
+}
+
+.selectElement{
+  outline: none;
+  border:1px solid #ccc;
+  background-color: white;
+  font:inherit;
+  padding:6px 10px;
+  display: block;
+  padding: 8px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+  transition: all 1s ease-in;
+  box-sizing: border-box;
+}
+.selectElement:focus{
+outline:none;
+background-color: #ccc;
+}

@@ -1,0 +1,31 @@
+.ContactData{
+  margin:20px auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border:1px solid #eee;
+  padding:10px;
+  box-sizing: border-box;
+}
+@media (min-width) {
+  .ContactData{
+    width: 500px;
+  }
+}
+
+h4{
+  background: black;
+  color: aliceblue;
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+p.success{
+  margin-bottom: auto;
+  background: green;
+  padding: 5px;
+  color: white;
+  border-radius: 46px;
+  width: 53%;
+  float: left;
+}
